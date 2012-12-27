@@ -7,8 +7,16 @@ gem 'rails', '3.2.9'
 
 group :development do
   gem 'sqlite3'
+  gem 'spork'
+  gem 'guard-rspec'
 end
 
+group :test do
+  gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'capybara_rails'
+  gem 'growl'
+end
 
 
 
