@@ -15,7 +15,10 @@ group :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'capybara_rails'
-  gem 'growl'
+  gem 'rb-inotify'
+  gem 'libnotify'
+  gem 'guard-rspec'
+  gem 'guard-spork'
 end
 
 
